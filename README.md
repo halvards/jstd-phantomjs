@@ -14,7 +14,8 @@ in the browser command line flag (http://code.google.com/p/js-test-driver/wiki/C
 
 This is the full command line:
 
-    $ java -jar JsTestDriver-1.3.3d.jar --captureConsole true --config jsTestDriver.conf --port 9876 --tests all --verbose true --browser 'phantomjs;phantomjs-jstd-bridge.js' --testOutput target/jstd-reports
+    $ java -jar JsTestDriver-1.3.3d.jar --captureConsole true --config jsTestDriver.conf --port 9876 --tests all \
+      --verbose true --browser 'phantomjs;phantomjs-jstd-bridge.js' --testOutput target/jstd-reports
 
 Download links:
 
